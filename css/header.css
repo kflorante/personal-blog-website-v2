@@ -1,0 +1,19 @@
+header {
+  width: 100%;
+}
+
+.site-logo {
+  width: 150px;
+}
+ ul {
+   list-style-type: none;
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   padding: 1em;
+
+ }
+
+ .menu {
+   text-decoration: none;
+ }
