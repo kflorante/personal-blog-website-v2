@@ -66,6 +66,9 @@ main {
   border-radius: 5px;
   box-shadow: 1px 1px 1px rgba(0,1,2,0.30);
   border: 1px solid rgba(34,36,38,0.15);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .about-me,
@@ -98,6 +101,10 @@ main {
   background-color: #fff;
 }
 
+.about-me-content {
+  text-align: center;
+}
+
 .btn {
   padding: 1em 2em;
   text-align: center;
@@ -115,4 +122,17 @@ main {
   border: 1px solid rgb(199, 199, 199);
   resize: vertical;
   font-size: 1em;
+}
+
+.avatar {
+  height: auto;
+  border-radius: 50%;
+}
+
+.tiny {
+  width: 35px;
+}
+
+.small {
+  width: 100px;
 }
