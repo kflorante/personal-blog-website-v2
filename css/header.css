@@ -9,13 +9,20 @@ header {
    list-style-type: none;
    display: flex;
    width: auto;
-   background-color: black;
    margin: 0;
    padding: 0;
+ }
+
+ .ul-nav {
+  background-color: #1a1a6e;
  }
 
  .menu {
    text-decoration: none;
    color: white;
    padding: 1em;
+ }
+
+ .menu:hover {
+   background-color: #5757bb;
  }

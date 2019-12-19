@@ -1,0 +1,18 @@
+footer > ul {
+  justify-content: center;
+}
+
+.fa {
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
+  width: 50px;
+  background-color: #2e2ebd;
+  color: white;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  background-color: #c22828;
+}
