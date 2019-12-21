@@ -28,3 +28,27 @@ figcaption > a {
   text-decoration: none;
   text-align: center;
 }
+
+.article {
+  color: #1f5079;
+  line-height: 2em;
+  padding: 10px;
+}
+
+article > h3 {
+  color: #14344e;
+}
+
+.underlined-text {
+  text-decoration: underline;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 1.5em;
+  color: #555555;
+  line-height: 1.6;
+  border-left: 8px solid rgb(105, 155, 212);
+  background:#EDEDED;
+  padding: 1em;
+}
