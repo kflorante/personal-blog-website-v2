@@ -110,11 +110,16 @@ main {
   padding: 1em 2em;
   text-align: center;
   cursor: pointer;
-  border: 1px solid #000;
+  border: 1px solid #c3c3c3;
   border-radius: 5px;
   font-size: 12px;
   font-weight: 600;
   background-color: #fff;
+  opacity: 0.7;
+}
+
+.btn:hover {
+  opacity: 1;
 }
 
 .txt-fld {
