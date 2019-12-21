@@ -1,0 +1,18 @@
+.article-author-container {
+  display: flex;
+}
+
+.article-author-name {
+  margin: 0;
+  opacity: .8;
+}
+
+.article-date {
+  opacity: 0.6;
+}
+
+.article-avatar,
+.article-author-name,
+.article-date {
+  padding: 3px;
+}

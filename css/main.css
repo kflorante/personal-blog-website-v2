@@ -1,5 +1,6 @@
 @import url("header.css");
 @import url("footer.css");
+@import url("blog-post.css");
 
 html {
   box-sizing: border-box;
@@ -135,14 +136,16 @@ main {
 }
 
 .avatar {
-  height: auto;
   border-radius: 50%;
 }
 
 .tiny {
-  width: 35px;
+  width: 42px;
+  height: 42px;
+  align-self: center;
 }
 
 .small {
   width: 100px;
+  height: 100px;
 }
