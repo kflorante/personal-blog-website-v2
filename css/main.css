@@ -52,6 +52,10 @@ main {
   margin: 10px;
 }
 
+.read-more-container {
+  padding: 10px;
+}
+
 .subscribe-section {
   width: 100%;
   padding: 10px;
