@@ -52,3 +52,31 @@ blockquote {
   background:#EDEDED;
   padding: 1em;
 }
+
+.prev-nxt-btns {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 10px 10px;
+}
+
+.prev-nxt-btns > a > button {
+  background-color: black;
+  color: white;
+  opacity: 1;
+}
+
+.prev-nxt-btns > a > button:hover {
+  opacity: 0.8;
+}
+
+button > .fa {
+  background-color: inherit;
+  color: inherit;
+  padding: 0;
+  margin: 0;
+  width: 20px;
+}
+
+button > .fa:hover {
+  background-color: inherit;
+}
