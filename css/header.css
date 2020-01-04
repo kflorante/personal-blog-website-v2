@@ -15,6 +15,7 @@ header {
 
  .ul-nav {
   background-color: #1a1a6e;
+  border-radius: 5px;
  }
 
  .menu {
@@ -25,4 +26,23 @@ header {
 
  .menu:hover {
    background-color: #5757bb;
+ }
+
+ @media only screen and (min-width: 480px) {
+   header {
+     width: 100%;
+     align-items: center;
+   }
+
+   nav {
+     padding-right: 10px;
+   }
+
+   .ul-nav {
+     display: flex;
+     width: 100%;
+     max-width: 600px;
+     justify-content: space-evenly;
+     float: right;
+   }
  }
