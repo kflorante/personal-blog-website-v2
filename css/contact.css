@@ -1,0 +1,14 @@
+.form {
+  width: 100% !important;
+  padding: 1em 1em;
+  margin: 1rem 0 !important;
+}
+
+.form > .txt-fld {
+  margin: 5px 0;
+  padding: 0.5em;
+}
+
+.form > .btn {
+  margin: auto;
+}
