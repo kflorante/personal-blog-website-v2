@@ -80,3 +80,12 @@ button > .fa {
 button > .fa:hover {
   background-color: inherit;
 }
+
+@media only screen and (min-width: 768px) {
+  .post-page-title,
+  .article-author-container,
+  article {
+    margin: auto;
+    max-width: 768px;
+  }
+}
