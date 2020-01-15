@@ -180,3 +180,10 @@ main {
     grid-area: footer;
   }
 }
+
+@media only screen and (min-width: 768px) {
+  .sub-about-container {
+    margin: auto;
+    max-width: 768px;
+  }
+}
