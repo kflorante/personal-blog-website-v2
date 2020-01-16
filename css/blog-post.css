@@ -55,7 +55,7 @@ blockquote {
 
 .prev-nxt-btns {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 0 20px 10px 10px;
 }
 
@@ -79,6 +79,10 @@ button > .fa {
 
 button > .fa:hover {
   background-color: inherit;
+}
+
+.hidden {
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {
